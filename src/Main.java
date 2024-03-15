@@ -47,12 +47,12 @@ public class Main {
         for (int j : week4) {
             sumWeek4 = sumWeek4 + j;
         }
-        double average = (sumWeek1 + sumWeek2 + sumWeek3 + sumWeek4)/4;
+        double average = (sumWeek1 + sumWeek2 + sumWeek3 + sumWeek4) / 4;
         System.out.println("Средняя сумма трат за месяц составила " + average + " рублей.");
         System.out.println();
         //task 4
         System.out.println("Задача 4");
-        char[] reverseFullName = { 'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
+        char[] reverseFullName = {'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
         for (int i = 10; i >= 0; i--) {
             if (i != -1) {
                 System.out.print(reverseFullName[i]);
